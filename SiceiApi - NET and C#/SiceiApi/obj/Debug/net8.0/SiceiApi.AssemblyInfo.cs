@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SiceiApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8ed323bb8aba5a83f8c220e609883ba7dee8154")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a658587b00e5a98b86e317aad713426366f1d0d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("SiceiApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SiceiApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
