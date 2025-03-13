@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiceiApi", "SiceiApi\SiceiApi.csproj", "{7FEC80EF-A9CC-475C-B246-EFE0961CA7FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FEC80EF-A9CC-475C-B246-EFE0961CA7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FEC80EF-A9CC-475C-B246-EFE0961CA7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FEC80EF-A9CC-475C-B246-EFE0961CA7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FEC80EF-A9CC-475C-B246-EFE0961CA7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

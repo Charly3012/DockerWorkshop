@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "2v8GlYbJGUwLzqA79aUzvqzb2+0vGuKJ4AMGVPSk05k=",
+  "Source": "SiceiApi",
+  "BasePath": "_content/SiceiApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

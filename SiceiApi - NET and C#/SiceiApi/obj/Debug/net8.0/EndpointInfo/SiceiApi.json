@@ -1,0 +1,140 @@
+{
+  "x-generator": "NSwag v14.2.0.0 (NJsonSchema v11.1.0.0 (Newtonsoft.Json v13.0.0.0))",
+  "openapi": "3.0.0",
+  "info": {
+    "title": "SiceiApi",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/api/alumnos/getAll": {
+      "get": {
+        "tags": [
+          "Api"
+        ],
+        "operationId": "SiceiApiAPIEndpointsGetAllAlumnosEndpoint",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SiceiApiDOMAINResponsesGetAllAlumnosReponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/profesores/getAll": {
+      "get": {
+        "tags": [
+          "Api"
+        ],
+        "operationId": "SiceiApiAPIEndpointsGetAllProfesoresEndpoint",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SiceiApiDOMAINResponsesGetAllProfesoresResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/healt": {
+      "get": {
+        "tags": [
+          "Api"
+        ],
+        "operationId": "SiceiApiAPIEndpointsHealtEndpoint",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SiceiApiDOMAINResponsesHealtResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "SiceiApiDOMAINResponsesGetAllAlumnosReponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "alumnos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SiceiApiDOMAINModelsAlumno"
+            }
+          }
+        }
+      },
+      "SiceiApiDOMAINModelsAlumno": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          }
+        }
+      },
+      "SiceiApiDOMAINResponsesGetAllProfesoresResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "profesores": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SiceiApiDOMAINModelsProfesores"
+            }
+          }
+        }
+      },
+      "SiceiApiDOMAINModelsProfesores": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "employeeId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      },
+      "SiceiApiDOMAINResponsesHealtResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "status": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "JWTBearerAuth": {
+        "type": "http",
+        "description": "Enter a JWT token to authorize the requests...",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  }
+}
